@@ -1,0 +1,44 @@
+<!DOCTYPE html><html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>cookies</title>
+    </head>
+    <body>
+       
+            <label>username</label>
+            <input type="text" id="name">
+            <button onclick="setcookie()">setcookie</button>
+            <button onclick="getCookie()">getcookie</button>
+     
+        <p id="ex"></p>
+        <script>
+            function setcookie(){
+                var user = document.getElementById('name').value;
+                
+                document.cookie = 'users' + "=" + user;
+                document.getElementById("ex").innerHTML = user;
+       
+            }
+            function getCookie(name) {
+                    // Split cookie string and get all individual name=value pairs in an array
+        var cookieArr = document.cookie.split(";");
+    
+        // Loop through the array elements
+        for(var i = 0; i < cookieArr.length; i++) {
+            var cookiePair = cookieArr[i].split("=");
+    
+            /* Removing whitespace at the beginning of the cookie name
+            and compare it with the given string */
+            if(name == cookiePair[0].trim()) {
+                // Decode the cookie value and return
+                return decodeURIComponent(cookiePair[1]);
+            }
+        }
+    
+        // Return null if not found
+        return null;
+            }
+        </script>
+    </body>
+</html>

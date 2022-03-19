@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #50a3a2;
+    font-family: 'Noto Sans', sans-serif;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+nav {
+    margin-top: 15px;
+}
+.navLinks {
+    width: 72px;
+}
+.navLinks a {
+    width: 72px;
+    height: 68px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #323232;
+}
+.navLinks a:hover {
+    color: #81ce79;
+}
+.homeLink {
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+.navLinks ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.navLinks ul li a {
+    border-bottom: 1px #ccc solid;
+}
+.navLinks ul li:last-child a {
+    border: none;
+}
+.navLinks a i {
+    width: 28px;
+    height: 28px;
+    background-repeat: no-repeat;
+}
+.homeIco {
+    background-image: url('../images/home.jpg');
+}
+.aboutIco {
+    background-image: url('../images/about.jpg');
+}
+.resumeIco {
+    background-image: url('../images/resume.jpg');
+}
+.worksIco {
+    background-image: url('../images/works.jpg');
+}
+.blogIco {
+    background-image: url('../images/blog.jpg');
+}
+.contactIco {
+    background-image: url('../images/contact.jpg');
+}
+.contentContainer {
+    width: calc(100% - 82px);
+}
+.profile-wrapper {
+    display: flex;
+}
+.profile-container {
+    background-color: #fff;
+    border-radius: 6px;
+    text-align: center;
+}
+figure {
+    margin: 0;
+    padding: 0;
+}
+figure img {
+    border-radius: 6px 6px 0 0;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0 0 10px 0;
+}
+h4 {
+    margin: 0 0 15px 0;
+    color: #81ce79;
+    font-weight: 300;
+}
+.socialConnectLinks {
+    padding: 15px 0;
+}
+.socialConnectLinks ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.socialConnectLinks ul li {
+    display: inline-block;
+}
+.socialConnectLinks ul li a {
+    display: block;
+    text-indent: -999em;
+    width: 32px;
+    height: 32px;
+    background-image: url('../images/social-icons.jpg');
+    background-repeat: no-repeat;
+}
+.sc1 {
+    background-position: 0 0;
+}
+.sc2 {
+    background-position: -31px 0;
+}
+.sc3 {
+    background-position: -62px 0;
+}
+.sc4 {
+    background-position: -93px 0;
+}
+.sc5 {
+    background-position: -124px 0;
+}
+.communicateControls {
+    border-top: 1px #ccc solid;
+    display: flex;
+    flex-direction: row;
+}
+.communicateControls a {
+    width: 50%;
+    padding: 20px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #323232;
+}
+.communicateControls a:first-child {
+    border-right: 1px #ccc solid;
+}
+.communicateControls a:hover {
+    background-color: #81ce79;
+    color: #fff;
+}

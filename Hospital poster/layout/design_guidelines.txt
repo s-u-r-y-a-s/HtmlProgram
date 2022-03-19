@@ -1,0 +1,14 @@
+Font - family is Arial
+
+About MB Systems    --  Heading   --  text color code : #333333,  text size is 42px
+
+Paragraphs style   -- text color code : #333333,  text size is 18px
+
+Features   --  Sub Heading   --  text color code: #009999, text size is 28px
+
+list style   -- text color code : #333333,  text size is 18px
+
+
+Table:
+
+Border - color is #333333, text color is #333333

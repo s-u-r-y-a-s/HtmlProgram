@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#layout {
+    width: 300px;
+    height: 220px;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 4px;
+    margin-top: 10%;
+}
+
+#seatech {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+#user {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    border: 1px solid rgb(212, 210, 210);
+    height: 20px;
+    width: 240px;
+    font-size: 10px;
+    border-radius: 4px
+}
+
+#pass {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    border: 1px solid rgb(212, 210, 210);
+    height: 20px;
+    width: 240px;
+    font-size: 10px;
+    border-radius: 4px
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    height: 21px;
+    width: 65px;
+    margin-top: 5%;
+    background-color: rgb(73, 73, 214);
+    color: whitesmoke;
+    font-size: 10px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+#cntd {
+    font-size: smaller;
+}
