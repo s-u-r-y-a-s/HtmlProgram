@@ -22,8 +22,7 @@ function myfunction() {
         result = result + "<tr>"+  "<td>"  + data[i].id + "</td>" + "<td>" + data[i].Name   + "</td>" + "<td>" + data[i].Age + "</td>" + "</tr>";
     }
     result = result + "</table>";
-    document.getElementById("demo").innerHTML = result;
     document.getElementById("demo").style.backgroundColor = "grey"
     document.getElementById("demo").style.color = "white"
-
+    document.getElementById("demo").innerHTML = result;
 }
